@@ -1,0 +1,52 @@
+/* Hero.css */
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Optional: Set a max height */
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .hero p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+ 
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .hero-text {
+    padding: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+}
+
+  

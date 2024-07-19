@@ -1,0 +1,23 @@
+.grocery-website {
+    padding: 20px;
+}
+
+.grocery-game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.grocery-game iframe {
+    width: 80%;
+    height: 88vh; /* Adjust this value as needed */
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .grocery-game iframe {
+        width: 100%;
+        height: 60vh; /* Adjust the height for smaller screens */
+    }
+}

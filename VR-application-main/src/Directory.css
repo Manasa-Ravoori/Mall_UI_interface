@@ -1,0 +1,21 @@
+/* Directory.css */
+
+.container {
+    text-align: center;
+}
+  
+.directory {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: nowrap; /* Prevent wrapping to ensure side by side layout */
+    gap: 2em; /* Space between items */
+    margin: 2em 0;
+}
+
+@media (max-width: 768px) {
+  .directory {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items vertically */
+    flex-wrap: wrap; /* Prevent wrapping to ensure side by side layout */
+  }
+}

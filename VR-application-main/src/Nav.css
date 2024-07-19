@@ -1,0 +1,43 @@
+/* Nav.css */
+
+nav {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #333;
+  }
+  
+    /* Media queries for responsiveness */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: row;
+      }
+    
+      nav a {
+        margin: 10px 0;
+        font-size: 1em;
+      }
+    }
+    

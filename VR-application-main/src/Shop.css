@@ -1,0 +1,74 @@
+/* Shop.css */
+
+.shop-link {
+  text-decoration: none; /* Remove underlining from the link */
+  display: inline-block; /* Ensure the link behaves like an inline-block element */
+  width: 100%; /* Allow link to expand to full width of container */
+}
+
+.shop {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 2em; /* Increased padding for taller look */
+  width: 100%; /* Ensure it takes the full width of the parent */
+  max-width: 410px; /* Optional: Maximum width to maintain shape */
+  height: 300px; /* Fixed height for taller look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.shop:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.shop h3 {
+  font-size: 1.75em;
+  margin-bottom: 0.5em;
+  color: #FF6347; /* Tomato */
+}
+
+.shop p {
+  font-size: 1em;
+  color: #666;
+}
+
+.movie {
+  background-color: #FFE4B5; /* Moccasin */
+}
+
+.restaurant {
+  background-color: #E6E6FA; /* Lavender */
+}
+
+.grocery {
+  background-color: #98FB98; /* PaleGreen */
+}
+
+.movie:hover {
+  background-color: #FFD700; /* Gold */
+}
+
+.restaurant:hover {
+  background-color: #BA55D3; /* MediumOrchid */
+}
+
+.grocery:hover {
+  background-color: #32CD32; /* LimeGreen */
+}
+
+@media (max-width: 768px) {
+  .shop {
+    height: auto; /* Allow height to adjust based on content */
+    padding: 1em; /* Adjust padding for smaller screens */
+  }
+
+  .shop h3 {
+    font-size: 1.25em; /* Further reduce font size for smaller screens */
+  }
+
+  .shop p {
+    font-size: 0.9em; /* Further reduce font size for smaller screens */
+  }
+}

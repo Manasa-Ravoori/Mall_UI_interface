@@ -1,0 +1,26 @@
+.shop {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .shop:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #FFE4B5; /* Moccasin */
+  }
+  
+  .shop h3 {
+    font-size: 1.75em;
+    margin-bottom: 0.5em;
+    color: #FF6347; /* Tomato */
+  }
+  
+  .shop p {
+    font-size: 1em;
+  }  
